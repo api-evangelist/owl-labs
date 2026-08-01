@@ -1,8 +1,17 @@
 aid: owl-labs
 name: Owl Labs
-description: 'Owl Labs is a company surfaced as a portfolio company of matrix-partners, playground-global
-  and added to the API Evangelist network as a stub for enrichment. Sector: b2b. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Owl Labs is a Boston-based video conferencing hardware and software company
+  building smart devices for hybrid meetings. Its flagship Meeting Owl line is a
+  360-degree AI-powered camera, microphone, and speaker that automatically
+  focuses on whoever is speaking, alongside accessories such as the Owl Bar,
+  Whiteboard Owl, and Expansion Mic. The Nest is its cloud fleet-management
+  platform for provisioning, updating, and monitoring deployed devices across an
+  organization. Owl Labs sells to enterprises, schools, and distributed teams,
+  and publishes an annual State of Hybrid Work report. It was surfaced as a
+  portfolio company of Matrix Partners and Playground Global. Owl Labs does not
+  currently publish a public developer API, SDK, or webhook surface; this profile
+  captures its identity, security posture, and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/owl-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,30 @@ x-backed-by:
 - playground-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.owllabs.com/favicon.ico
 tags:
 - Company
 - B2B
+- Video Conferencing
+- Hardware
+- Hybrid Work
+- Collaboration
+- Meeting Rooms
+- Devices
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://owllabs.com
+- type: Support
+  url: https://support.owllabs.com/
+- type: Blog
+  url: https://resources.owllabs.com/blog
+- type: PrivacyPolicy
+  url: https://www.owllabs.com/privacy-policy
+- type: TermsOfService
+  url: https://www.owllabs.com/terms-of-service
+- type: Security
+  url: https://www.owllabs.com/security
+- type: DomainSecurity
+  url: security/owl-labs-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/owl-labs-vulnerability-disclosure.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
